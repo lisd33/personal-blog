@@ -1,0 +1,45 @@
+name: Deploy Hugo to Server
+
+on:
+  push:
+    branches: ["main"]   # 如果你主分支叫 master，就改成 master
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive   # 如果你主题用 submodule，这行很重要
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Setup SSH Agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      - name: Add known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${{ secrets.DEPLOY_PORT }}" -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -az --delete \
+            -e "ssh -p ${{ secrets.DEPLOY_PORT }}" \
+            public/ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}
