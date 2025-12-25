@@ -2,7 +2,7 @@ name: Deploy Hugo to Server
 
 on:
   push:
-    branches: ["main"]   # 如果你主分支叫 master，就改成 master
+    branches: ["master"]   # 如果你主分支叫 master，就改成 master
 
 permissions:
   contents: read
