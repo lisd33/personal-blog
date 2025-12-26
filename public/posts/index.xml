@@ -1,19 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 Dec 2025 09:25:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello</title>
-      <link>http://localhost:1313/posts/hello/</link>
-      <pubDate>Fri, 26 Dec 2025 09:25:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>http://101.35.86.20/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 26 Dec 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://101.35.86.20/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>关于我</title><link>http://101.35.86.20/posts/about/</link><pubDate>Fri, 26 Dec 2025 00:00:00 +0800</pubDate><guid>http://101.35.86.20/posts/about/</guid><description>&lt;p&gt;你好，我是 &lt;strong&gt;子豪（Zihao Li）&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;我喜欢把“看起来很难”的东西拆成可执行的小模块，然后一步一步做出来：从需求、方案、实验，到工程落地和长期维护。这个博客会记录我在学习与项目中的思考、踩坑与复盘，也会放一些我觉得值得反复回看的笔记。&lt;/p&gt;
+&lt;h2 id="我在做什么"&gt;我在做什么&lt;/h2&gt;
+&lt;p&gt;我主要关注这些方向：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 工程化与多智能体（Agent）系统&lt;/strong&gt;：把模型能力做成可组合的工具链，让系统能“规划—执行—评估—迭代”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;医学影像（Chest X-ray 等）相关探索&lt;/strong&gt;：从图像处理、特征量化，到报告生成和辅助诊断的工程实践。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具与效率&lt;/strong&gt;：脚本化、自动化、可复现的环境管理；尽量让复杂流程变得可控、可维护。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="我为什么写这个博客"&gt;我为什么写这个博客&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;把经验从“脑子里”变成“可复用的文字”&lt;/strong&gt;：写下来的东西才能复盘、能传播、能迭代。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;记录完整过程&lt;/strong&gt;：不仅写结论，也写失败与取舍（很多时候这些更有价值）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;长期主义&lt;/strong&gt;：希望几年后回头看，依然能从这里找到自己当时的思路与证据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="你会在这里看到什么"&gt;你会在这里看到什么&lt;/h2&gt;
+&lt;p&gt;我会持续更新以下类型内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目复盘：从 0 到 1 的搭建过程、设计思路、关键权衡&lt;/li&gt;
+&lt;li&gt;技术笔记：环境、部署、性能优化、提示词与工具使用经验&lt;/li&gt;
+&lt;li&gt;学习记录：论文/文章读书笔记、观点整理与实践验证&lt;/li&gt;
+&lt;li&gt;一些碎片但有用的东西：脚本、模板、Checklist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="联系我"&gt;联系我&lt;/h2&gt;
+&lt;p&gt;如果你想交流或合作，欢迎通过以下方式联系我：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;code&gt;https://github.com/lisd33&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Email：你可以在这里写你的邮箱（建议用专门的公开邮箱）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你也在做 AI 工程化 / Agent 系统 / 医学影像相关项目，欢迎来聊。一起把复杂的事情做得更清晰、更可落地。&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>

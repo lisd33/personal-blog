@@ -1,3 +1,4 @@
 baseURL = 'http://101.35.86.20/'
 languageCode = "zh-cn"
 title = 'My New Hugo Site'
+theme = "ananke"
